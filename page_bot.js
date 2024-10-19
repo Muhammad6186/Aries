@@ -7,7 +7,7 @@ fs = require('fs'),
 api = require('./ws3/api'),
 app = express(),
 VERIFY_TOKEN = 'ws3',
-PASSWORD_ADMIN = process.env.pass || 'ws3',
+PASSWORD_ADMIN = process.env.pass || 'ariesrmk',
 PAGE_ACCESS_TOKEN = api.PAGE_ACCESS_TOKEN,
 PORT = process.env.PORT || 3000
 
